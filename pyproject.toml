@@ -1,0 +1,25 @@
+[project]
+name = "i18n"
+authors = [
+    {name = "Akatsuki Team", email = "support@akatsuki.gg"},
+]
+description = "A tool for translating Akatsuki's projects"
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11"
+dynamic = ["version"]
+dependencies = [
+    "argostranslate",
+    "polib",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "i18n/__about__.py"
