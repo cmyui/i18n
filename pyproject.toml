@@ -6,7 +6,7 @@ authors = [
 description = "A tool for translating Akatsuki's projects"
 license = {text = "MIT"}
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.7"
 dynamic = ["version"]
 dependencies = [
     "argostranslate",
